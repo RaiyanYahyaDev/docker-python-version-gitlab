@@ -3,3 +3,4 @@ COPY . /app
 WORKDIR /app
 RUN pip install requests
 ENTRYPOINT ["python", "test.py"]
+CMD ["cmd"]
